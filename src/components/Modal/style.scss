@@ -1,0 +1,83 @@
+.modalBack {
+	.modalContainer {
+		position: absolute;
+		top: 30%;
+		left: 32%;
+		width: 550px;
+		height: 450px;
+		border: radius 12px;
+		background-color: rgba(22, 145, 18, 0.939);
+		box-shadow: black 0 0 15px;
+		display: flex;
+		flex-direction: column;
+		padding: 25px;
+
+		.title {
+			display: inline-block;
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			color: white;
+		}
+
+		.body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			gap: 20px;
+			
+			.number {
+				height: 40px;
+				border-radius: 12px;
+				padding-left: 10px;
+				
+			}
+			.name {
+				height: 40px;
+				border-radius: 12px;
+				padding-left: 10px;
+			}
+		}
+
+		.closeBtn {
+			width: 15px;
+			height: 15px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			top: 10;
+			right: 50px;
+			margin-bottom: 50px;
+			border: none;
+		}
+
+		.body {
+			margin-top: 50px;
+			gap: 20px;
+		}
+
+		.footer {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 150px;
+			gap: 20px;
+			.cancel {
+				width: 80px;
+				height: 30px;
+				border-radius: 12px;
+				color: white;
+				background-color: crimson;
+			}
+			.add {
+				width: 80px;
+				height: 30px;
+				border-radius: 12px;
+				color: white;
+				background-color:yellowgreen;
+			}
+		}
+	}
+}
