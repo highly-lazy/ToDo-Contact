@@ -1,10 +1,5 @@
-# lesson - 4 in React.js
-
-### mavzular:
-
-1. useRef 
-2. useState va spread , rest  orqali TODO APP.
-3. Takrorlash
+# Create To Do App with using Tailwind CSS, React JS, HTML 5
+# You can copy and use it
 
 
 
